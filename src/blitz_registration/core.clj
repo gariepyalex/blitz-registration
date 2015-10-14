@@ -56,7 +56,7 @@
 
 (defn indices-of-paragraphs-matching-word
   [word paragraphs]
-  (let [word-regex (re-pattern (str "(?i).*(?:\\s|^)" word "(?:\\s|$).*"))]
+  (let [word-regex (re-pattern (str "(?i).*" word ".*"))]
     (into [] (map first
                   (filter #(re-matches word-regex (second %)) paragraphs)))))
 
