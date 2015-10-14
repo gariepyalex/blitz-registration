@@ -42,12 +42,12 @@
                                :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
                                :inCharge false}
 
-                              {:firstName "Alexandre"
-                               :lastName "Gariépy"
-                               :email "gariepy.alex@gmail.com"
-                               :phoneNumber "418-265-6851"
+                              {:firstName "David"
+                               :lastName "Landry"
+                               :email "davidlandry93@gmail.com "
+                               :phoneNumber "418-265-4830"
                                :educationalEstablishment "Université Laval"
-                               :studyProgram "Génie logiciel"
+                               :studyProgram "Informatique"
                                :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
                                :inCharge false}
                               ]
