@@ -44,7 +44,7 @@
 
                               {:firstName "David"
                                :lastName "Landry"
-                               :email "davidlandry93@gmail.com "
+                               :email "davidlandry93@gmail.com"
                                :phoneNumber "418-265-4830"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Informatique"
