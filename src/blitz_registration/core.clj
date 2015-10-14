@@ -4,8 +4,7 @@
             [ring.util.response :refer [response]])
   (:gen-class))
 
-;(def PORT (Integer/parseInt (System/getenv "PORT")))
-(def PORT 5000)
+(def PORT (Integer/parseInt (System/getenv "PORT")))
 
 (defn date-to-sec-since-1970
   [year month day]
