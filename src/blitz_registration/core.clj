@@ -21,7 +21,7 @@
                                :phoneNumber "418-265-6851"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
-                               :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2016 04 31)
                                :inCharge true}
 
                               {:firstName "David"
@@ -30,7 +30,7 @@
                                :phoneNumber "418-934-8766"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
-                               :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2017 04 31)
                                :inCharge false}
 
                               {:firstName "Adam"
@@ -39,7 +39,7 @@
                                :phoneNumber "418-930-8569"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
-                               :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2017 04 31)
                                :inCharge false}
 
                               {:firstName "David"
@@ -48,7 +48,7 @@
                                :phoneNumber "418-265-4830"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Informatique"
-                               :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2016 04 31)
                                :inCharge false}
                               ]
                 })
