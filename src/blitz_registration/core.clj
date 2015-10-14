@@ -35,7 +35,7 @@
 
                               {:firstName "Adam"
                                :lastName "B.-Bolduc"
-                               :email "adam.b.bolduc@gmail.om"
+                               :email "adam.b.bolduc@gmail.com"
                                :phoneNumber "418-930-8569"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
