@@ -4,7 +4,8 @@
             [ring.util.response :refer [response]])
   (:gen-class))
 
-(def PORT (Integer/parseInt (System/getenv "PORT")))
+;(def PORT (Integer/parseInt (System/getenv "PORT")))
+(def PORT 5000)
 
 (defn date-to-sec-since-1970
   [year month day]
@@ -57,7 +58,7 @@
 (defn indices-of-paragraphs-matching-word
   [word paragraphs]
   (let [word-regex (re-pattern (str "(?i).*" word ".*"))]
-    (into [] (map (comp int first)
+    (into [] (map #(-> % first Integer/parseInt)
                   (filter #(re-matches word-regex (second %)) paragraphs)))))
 
 (defn handler
