@@ -24,13 +24,13 @@
                                :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
                                :inCharge true}
 
-                              {:firstName "Alexandre"
-                               :lastName "Gariépy"
-                               :email "gariepy.alex@gmail.com"
-                               :phoneNumber "418-265-6851"
+                              {:firstName "David"
+                               :lastName "Arel"
+                               :email "david.arel.1@ulaval.ca"
+                               :phoneNumber "418-934-8766"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
-                               :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
                                :inCharge false}
 
                               {:firstName "Alexandre"
