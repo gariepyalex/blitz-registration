@@ -13,7 +13,7 @@
                (.set year month day))]
     (int (/ (.getTimeInMillis date) 1000))))
 
-(def team-info {:teamName "Ainsi va la vim"
+(def team-info {:teamName "'(:kiss-my-lisp)"
                 :teamMembers [
                               {:firstName "Alexandre"
                                :lastName "Gariépy"
