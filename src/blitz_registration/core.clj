@@ -33,13 +33,13 @@
                                :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
                                :inCharge false}
 
-                              {:firstName "Alexandre"
-                               :lastName "Gariépy"
-                               :email "gariepy.alex@gmail.com"
-                               :phoneNumber "418-265-6851"
+                              {:firstName "Adam"
+                               :lastName "B.-Bolduc"
+                               :email "adam.b.bolduc@gmail.om"
+                               :phoneNumber "418-930-8569"
                                :educationalEstablishment "Université Laval"
                                :studyProgram "Génie logiciel"
-                               :dateProgramEnd (date-to-sec-since-1970 2016 05 31)
+                               :dateProgramEnd (date-to-sec-since-1970 2017 05 31)
                                :inCharge false}
 
                               {:firstName "Alexandre"
@@ -60,7 +60,7 @@
     (into [] (map first
                   (filter #(re-matches word-regex (second %)) paragraphs)))))
 
-(defn handler 
+(defn handler
   [request]
   (let [{word-to-search "q" paragraphs "paragraphs"} (:body request)
         indices (indices-of-paragraphs-matching-word word-to-search paragraphs)]
